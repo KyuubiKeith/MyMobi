@@ -1,0 +1,14 @@
+/* if viewport width < 50rem */
+div.panel.left {
+    grid-column-end: left;            /* left panel stops at left edge */
+}
+div.panel.right {
+    grid-column-start: right;         /* right panel starts at right edge */
+}
+div.panel {
+    display: none;                    /* neither panel is displayed */
+}
+div.mainbody {
+    grid-column-start: left;          /* mainbody starts at left edge */
+    grid-column-end: right;           /* mainbody ends at right edge */
+}

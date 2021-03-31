@@ -1,0 +1,19 @@
+/* ul.social a {
+  padding: 16px 16px!important;
+} */
+
+.tab_content {
+  -webkit-overflow-scrolling: touch
+}
+.scroll {
+  left: 30px;
+  height: 90px;
+  bottom: 23vh
+}
+.tab h4.resume {
+  padding-bottom: 85px
+}
+a.scroll.scroll-pop svg.scroll-start {
+  -webkit-animation: scrollpop 1s linear forwards 6 alternate;
+  animation: scrollpop 1s linear forwards 6 alternate
+}
